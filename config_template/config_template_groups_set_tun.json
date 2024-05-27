@@ -232,13 +232,13 @@
         "TaiWan", 
         "HongKong",
         "Others"
-      ]
+      ],
+      "default": "America"
     },
     {
       "tag":"Microsoft",
       "type":"selector",
       "outbounds":[
-        "direct",
         "America",
         "Europe",        
         "Japan",
