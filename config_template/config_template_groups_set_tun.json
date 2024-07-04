@@ -195,20 +195,6 @@
       "default": "Japan"
     },
     {
-      "tag":"NETFLIX",
-      "type":"selector",
-      "outbounds":[
-        "America",
-        "Europe",        
-        "Japan",
-        "Singapore",
-        "TaiWan", 
-        "HongKong",
-        "Others"
-      ],
-      "default": "America"
-    },
-    {
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
@@ -477,10 +463,6 @@
         "outbound": "TikTok"
       },
       {
-        "rule_set": ["geoip-netflix", "geosite-netflix"],
-        "outbound": "Netflix"
-      },
-      {
         "rule_set": "geosite-disney",
         "outbound": "Disney+"
       },
@@ -606,20 +588,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/tiktok.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/netflix.srs",
         "download_detour": "direct"
       },
       {
