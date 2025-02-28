@@ -95,10 +95,10 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
-        "America",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -107,11 +107,11 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -120,11 +120,11 @@
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ]
     },
@@ -132,11 +132,11 @@
       "tag":"Twitter",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -145,14 +145,13 @@
       "tag":"Facebook",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
-      ],
-      "default": "America"
+      ]
     },
     {
       "tag":"BiliBili",
@@ -175,11 +174,11 @@
       "tag":"Spotify",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -188,11 +187,11 @@
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America"
       ],
       "default": "Japan"
     },
@@ -200,11 +199,11 @@
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ]
     },
@@ -212,11 +211,11 @@
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ]
     },
@@ -225,11 +224,11 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -239,11 +238,11 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ],
       "default": "America"
@@ -253,11 +252,11 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ]
     },
@@ -265,11 +264,11 @@
       "tag":"Streaming",
       "type":"selector",
       "outbounds":[
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others"
       ]
     },
@@ -277,11 +276,11 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
-        "America",
         "HongKong",
-        "Japan", 
-        "Singapore",
         "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "Others",
         "direct"
       ]
