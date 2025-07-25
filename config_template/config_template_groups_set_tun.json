@@ -125,10 +125,10 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -137,11 +137,10 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -150,11 +149,11 @@
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
+        "auto",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ]
     },
@@ -162,11 +161,10 @@
       "tag":"Twitter",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -175,20 +173,19 @@
       "tag":"Facebook",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
-      ]
+      ],
+      "default": "America"
     },
     {
       "tag":"BiliBili",
       "type":"selector",
       "outbounds":[
         "direct",
-        "HongKong",
         "TaiWan"
       ]
     },
@@ -204,11 +201,10 @@
       "tag":"Spotify",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -217,11 +213,11 @@
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
+        "America",
         "Japan",
-        "America"
+        "Singapore",
+        "TaiWan",
+        "Others"
       ],
       "default": "Japan"
     },
@@ -229,11 +225,10 @@
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -242,24 +237,23 @@
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
-      ]
+      ],
+      "default": "America"
     },
     {
       "tag":"Apple",
       "type":"selector",
       "outbounds":[
         "direct",
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -269,11 +263,10 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ],
       "default": "America"
@@ -283,11 +276,11 @@
       "type":"selector",
       "outbounds":[
         "direct",
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
+        "auto",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ]
     },
@@ -295,11 +288,11 @@
       "tag":"Streaming",
       "type":"selector",
       "outbounds":[
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
+        "auto",
         "America",
+        "Japan",
+        "Singapore",
+        "TaiWan",
         "Others"
       ]
     },
@@ -307,13 +300,12 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
+        "auto",
         "America",
-        "Others",
-        "direct"
+        "Japan",
+        "Singapore",
+        "TaiWan",
+        "Others"
       ]
     },
     {
@@ -322,46 +314,6 @@
       "outbounds":[
         "direct",
         "Proxy"
-      ]
-    },
-    {
-      "tag":"HongKong",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
-      ]
-    },
-    {
-      "tag":"TaiWan",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
-      ]
-    },
-    {
-      "tag":"Singapore",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
-      ]
-    },
-    {
-      "tag":"Japan",
-      "type":"selector",
-      "outbounds":[
-        "{all}"
-      ],
-      "filter":[
-        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
       ]
     },
     {
@@ -375,13 +327,43 @@
       ]
     },
     {
+      "tag":"Japan",
+      "type":"selector",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
+      ]
+    },
+    {
+      "tag":"Singapore",
+      "type":"selector",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
+      ]
+    },
+    {
+      "tag":"TaiWan",
+      "type":"selector",
+      "outbounds":[
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
+      ]
+    },
+    {
       "tag":"Others",
       "type":"selector",
       "outbounds":[
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
+        {"action":"exclude","keywords":["🇺🇸|US|us|美国|美|🇯🇵|JP|jp|日本|日|🇸🇬|SG|sg|新加坡|狮|🇹🇼|TW|tw|台湾|台"]}
       ]
     },
     {
