@@ -745,6 +745,13 @@
         "format": "binary",
         "url": "https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
         "http_client": "default"
+      },
+      {
+        "tag": "adguard",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://gh-proxy.com/raw.githubusercontent.com/meta-rules-dat/blob/sing/geo/geosite/adguard.srs",
+        "http_client": "default"
       }
     ]
   }
