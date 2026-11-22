@@ -56,7 +56,7 @@
         { "tag": "Google", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan","Others"], "default": "United States", "interrupt_exist_connections": true },
         { "tag": "Microsoft", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others", "Direct"], "default": "United States", "interrupt_exist_connections": true },
         { "tag": "Social", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others"], "default": "Manual", "interrupt_exist_connections": true },
-        { "tag": "Telegram", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan, "Others""], "default": "Singapore", "interrupt_exist_connections": true },
+        { "tag": "Telegram", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others"], "default": "Singapore", "interrupt_exist_connections": true },
         { "tag": "Game", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others", "Direct"], "default": "Manual", "interrupt_exist_connections": true },
         { "tag": "Emby", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others", "Direct"], "default": "Manual", "interrupt_exist_connections": true },
         { "tag": "Spotify", "type": "selector", "outbounds": ["Manual", "United States", "Singapore", "Japan", "Taiwan", "Others", "Direct"], "default": "Manual", "interrupt_exist_connections": true },
