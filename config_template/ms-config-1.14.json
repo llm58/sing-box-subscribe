@@ -84,7 +84,7 @@
                     "ChinaDomain", "ChinaIP"
                 ],
                 "type": "remote", "format": "binary",
-                "url": "https://github.com/Repcz/Tool/raw/X/sing-box/Rules/{tag}.srs",
+                "url": " https://gh-proxy.com/https://github.com/Repcz/Tool/raw/X/sing-box/Rules/{tag}.srs",
                 "update_interval": "1d"
             }
         ],
@@ -133,14 +133,13 @@
 
     "services": [
         {
-            "type": "api",
+            "type": "clash_api",
             "tag": "sing-box dashboard",
             "listen": "127.0.0.1",
-            "listen_port": 9091,
+            "listen_port": 9090,
             "secret": "",
             "access_control_allow_origin": [
-                "http://sing-box-dashboard.sagernet.org",
-                "http://dash.sing-box.app"
+               https://gh-proxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
             ],
             "access_control_allow_private_network": true
         }
