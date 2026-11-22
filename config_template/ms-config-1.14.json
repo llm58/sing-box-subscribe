@@ -111,7 +111,7 @@
             { "rule_set": ["Spotify"], "action": "route", "outbound": "Spotify" },
             { "rule_set": ["Bahamut", "Netflix", "Disney", "PrimeVideo", "HBO"], "action": "route", "outbound": "Streaming" },
             { "rule_set": ["Proxy"], "action": "route", "outbound": "Manual" },
-            { "rule_set": ["AppleProxy"], "action": "route", "outbound": "HongKong" },
+            { "rule_set": ["AppleProxy"], "action": "route", "outbound": "Taiwan" },
             { "action": "resolve" },
             { "rule_set": ["ChinaDomain", "ChinaIP"], "action": "route", "outbound": "Direct" }
         ],
